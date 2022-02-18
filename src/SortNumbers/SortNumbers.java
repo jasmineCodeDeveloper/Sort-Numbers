@@ -47,28 +47,3 @@ public class SortNumbers {
 
 
 
-/*public static void topTwoElements(int [] arrA){
-
-        if(arrA.length<2){
-            System.out.println("Invalid Input, array size is less than 2");
-        }
-
-        int first=Integer.MIN_VALUE;
-        int second=Integer.MIN_VALUE;
-
-        for (int i = 0; i <arrA.length ; i++) {
-            int current = arrA[i];
-            if(first<current){
-                second = first;
-                first = current;
-            }else if(second<current){
-                second = current;
-            }
-        }
-        System.out.println("top two elements are: " + first + " " + second);
-    }
-    public static void main(String[] args) {
-        // TODO code application logic here
-        int [] arrA = new int [] { 6, 8, 1, 9, 2, 1, 19};
-        topTwoElements(arrA);
-      */
